@@ -4,7 +4,7 @@
 
 .bg{
     position: fixed;
-    background-image: url(../img/bg.jpg);
+    background-color: #187382;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -14,63 +14,51 @@
     top:0;
 }
 
-.card{
-    position:relative;
-    width:600px;
+.img{
+    position: relative;
+    width: 600px;
     margin: 0 auto;
-    text-align:center;
-    background-color: white;
-    overflow: hidden;
     border-radius: 10px;
-    margin-bottom: 20px;
+    display: block;
+    margin-top: 40px;
+}
+
+.card {
+    position: relative;
+    width: 580px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: rgba(0,0,0,0.5);
+    color: #CF8950;
+    padding: 0 0 0 20px;
+    border-radius: 10px;
+}
+
+.card h1{
+    font-size: 40px;
+    color: #FFB77C;
+}
+
+.card strong{
+    color: #FFB77C;
 }
 
 .card2{
     position:relative;
-    width:600px;
+    width:580px;
+    padding: 0 0 0 20px;
     margin: 0 auto;
-    text-align:center;
-    background-color: white;
-    overflow: hidden;
-    border-radius: 10px;
+    text-align:left;
     margin-bottom: 20px;
-}
-
-.card3{
-    position:relative;
-    width:600px;
-    margin: 0 auto;
-    text-align:center;
-    background-color: white;
-    overflow: hidden;
-    border-radius: 10px;
-}
-
-.title{
-    font-size: 40px;
-    color: orange;
-}
-
-.logo{
-    position: fixed;
-    left: 20px;
-    top: 20px;
-}
-
-.leon{
-    position: relative;
-    left: 0;
-    top: 0;
 }
 
 .myTable{
     position: relative;
     margin: 10px auto;
-    text-align: center;
+    display: block;
 }
 .myTable tr, .myTable th{
     padding: 5px;
-    background-color: #eee;
 }
 .myTable tr:hover{
     background-color: yellow;
@@ -83,7 +71,13 @@
 
 .social{
     position: relative;
-    margin: 20px;
+    width:580px;
+    margin: 0 auto;
+    text-align:left;
+    background-color: rgba(0,0,0,0.5);
+    color: #FFB77C;
+    padding: 0 0 0 20px;
+    border-radius: 10px;
 }
 .social h3{
     font-size: 20px;
@@ -93,5 +87,11 @@
 }
 .social a{
     font-size: 16px;
-    color: green;
+    color: #CF8950;
+}
+
+.logo{
+    position: fixed;
+    left: 20px;
+    top: 20px;
 }
