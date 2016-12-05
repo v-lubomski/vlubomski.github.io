@@ -21,6 +21,29 @@
     text-align:center;
     background-color: white;
     overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card2{
+    position:relative;
+    width:600px;
+    margin: 0 auto;
+    text-align:center;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card3{
+    position:relative;
+    width:600px;
+    margin: 0 auto;
+    text-align:center;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 10px;
 }
 
 .title{
