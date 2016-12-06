@@ -44,28 +44,28 @@
 .card2 {
     position: relative;
     width: 580px;
-    padding: 20px 0 20px 20px;
+    padding: 10px 0 20px 20px;
     margin: 15px auto;
     text-align: left;
     background-color: #50BDCF;
     border-radius: 10px;
     color: #0c3a42;
+    font-family: 'Comfortaa', cursive;
 }
 
 .card2 h2{
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .myTable{
     position: relative;
-    margin: 10px auto;
     display: block;
 }
 .myTable tr, .myTable th{
     padding: 5px;
 }
 .myTable tr:hover{
-    background-color: yellow;
+    background-color: rgb(255, 183, 124);
     cursor: pointer;
 }
 .myTable tr td{
