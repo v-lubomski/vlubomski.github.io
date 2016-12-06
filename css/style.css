@@ -5,6 +5,18 @@
 
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:700&subset=cyrillic');
 
+.bg{
+    position: fixed;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    left:0;
+    top:0;
+}
+
 .img{
     position: relative;
     width: 600px;
@@ -18,7 +30,7 @@
     width: 580px;
     margin: 0 auto;
     text-align: left;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.7);
     color: #CF8950;
     padding: 10px 0 10px 20px;
     border-radius: 0 0 10px 10px;
@@ -47,7 +59,7 @@
     padding: 10px 0 20px 20px;
     margin: 15px auto;
     text-align: left;
-    background-color: #50BDCF;
+    background-color: rgba(102, 216, 255, 0.7);
     border-radius: 10px;
     color: #0c3a42;
     font-family: 'Comfortaa', cursive;
@@ -65,7 +77,7 @@
     padding: 5px;
 }
 .myTable tr:hover{
-    background-color: rgb(255, 183, 124);
+    background-color: rgba(12,58,66,0.3);
     cursor: pointer;
 }
 .myTable tr td{
@@ -78,7 +90,7 @@
     width:580px;
     margin: 0 auto;
     text-align:left;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.7);
     padding: 15px 0 15px 20px;
     border-radius: 10px;
 }
