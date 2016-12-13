@@ -1,18 +1,48 @@
+@font-face {
+    font-family: "Museo Sans";
+    src: url(../fonts/MuseoSans-700.otf);
+}
+
+body{
+    margin: 0;
+}
+
+.nav{
+    height: 60px;
+    background-color: #f7fdfe;
+    padding: 20px 250px 0 0;
+}
+
 .nav__btn{
-    color: white;
-    padding: .5em 2em;
+    float: right;
+
+    padding: 9px 27 px;
     border-radius: 20px;
     background-color: #0ebfdd;
     border: 0;
-    font-family: cursive;
-    float: right;
+    margin: 0 0 0 15px;
+
+    color: white;
+    font-family: "Museo Sans", sans-serif;
+    font-size: 14pt;
+    font-weight: 700;
+
+    cursor: pointer;
+    outline-width: 0;
 }
 
-.nav__item{
-    text-decoration: none;
-    color: #82868f;
-    margin-left: 30px;
+.nav__item {
+    display: block;
+    padding:10px;
+    margin: 0 0 0 15px;
     float: right;
+
+    color: #82868f;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Museo Sans", sans-serif;
+    font-size: 14pt;
+    font-weight: 700;
 }
 
 
