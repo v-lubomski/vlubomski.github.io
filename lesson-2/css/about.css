@@ -1,0 +1,14 @@
+.about{
+    height: 250px;
+    background-color: white;
+    position: relative;
+}
+
+.about__text{
+    position: absolute;
+    left: 23%;
+    width: 54%;
+    text-align: center;
+    bottom: 50px;
+}
+

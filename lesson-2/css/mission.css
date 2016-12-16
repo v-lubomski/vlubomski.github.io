@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Avenir Heavy";
+    src: url(../fonts/AvenirLTStd-Heavy.otf);
+}
+
+@font-face {
+    font-family: "Avenir Medium";
+    src: url(../fonts/AvenirLTStd-Medium.otf);
+}
+
+.mission{
+    position: relative;
+    background: url("../img/mission.jpg") no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.mission__text{
+    position: absolute;
+    bottom: 80px;
+    left: 23%;
+    width: 54%;
+    text-align: center;
+    color: #f7fdfe;
+}
+
+.mission__h2 span{
+    font-size: 0.4em;
+    vertical-align: middle;
+}

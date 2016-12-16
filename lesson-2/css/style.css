@@ -4,3 +4,32 @@
 @import url(team.css);
 @import url(map.css);
 @import url(footer.css);
+
+
+body{
+    margin: 0;
+}
+
+
+.h2{
+    font-family: "Avenir Heavy", sans-serif;
+    font-size: 2.5em;
+}
+
+.h2__color__blue{
+    color: #0ebfdd;
+}
+
+.h2__color__white{
+    color: white;
+}
+
+.p{
+    font-family: "Avenir Medium", sans-serif;
+    font-size: 1em;
+    word-spacing: 2px;
+}
+
+.p__color__gray{
+    color: #45494d;
+}
