@@ -1,0 +1,26 @@
+.map{
+    position: relative;
+    background: url("../img/map.jpg") no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.map__mark{
+    position: absolute;
+    top: 200px;
+    left: 390px;
+}
+
+.map__link{
+    color: red;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-family: "Proxima Nova Bold", sans-serif;
+}
+
+.map__addres{
+    color: #888e95;
+    margin: 5px 0 0 0;
+    font-size: 0.8em;
+    font-family: "Proxima Nova Semibold", sans-serif;
+}

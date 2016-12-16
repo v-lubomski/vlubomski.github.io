@@ -7,15 +7,16 @@
 </head>
 <body>
 <nav class="nav">
-    <a href="#" class="nav__logo">LOGO</a>
     <div class="nav__flex">
-        <a class="nav__item" href="#">LABEL</a>
-        <a class="nav__item" href="#">LABEL</a>
-        <a class="nav__item" href="#">LABEL</a>
-        <input class="nav__btn nav__item" type="button" value="SIGN IN">
+        <a href="#" class="nav__logo">LOGO</a>
+        <div class="nav__links">
+            <a class="nav__link" href="#">LABEL</a>
+            <a class="nav__link" href="#">LABEL</a>
+            <a class="nav__link" href="#">LABEL</a>
+            <input class="nav__btn nav__link" type="button" value="SIGN IN">
+        </div>
     </div>
 </nav>
-
 
 <div class="mission">
     <div class="mission__text">
@@ -25,29 +26,66 @@
     </div>
 </div>
 
-
 <div class="about">
     <div class="about__text">
         <h2 class="h2 h2__color__blue">About</h2>
-        <p class="p p__color__gray">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+        <p class="p p__color__gray">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+            Ipsum has been the
             industry's
             standard dummy text ever since the 1500s, when an unknown.</p>
     </div>
 </div>
 
-
 <div class="team">
-<h2 class="h2 h2__team">Team</h2>
-</div>
+    <div class="team__flex">
+        <h2 class="h2 h2__color__white h2__margin-off">Team</h2>
 
+        <div class="team__members">
+            <figure class="team__member">
+                <img src="img/team-member1.png" alt="member1" class="team__photo">
+                <figcaption class="team__name">John Doe</figcaption>
+                <figcaption class="team__post">Founder & CEO</figcaption>
+            </figure>
+
+            <figure class="team__member">
+                <img src="img/team-member2.png" alt="member2" class="team__photo">
+                <figcaption class="team__name">John Doe</figcaption>
+                <figcaption class="team__post">Co- Founder</figcaption>
+            </figure>
+
+            <figure class="team__member">
+                <img src="img/team-member3.png" alt="member3" class="team__photo">
+                <figcaption class="team__name">John Doe</figcaption>
+                <figcaption class="team__post">Investor</figcaption>
+            </figure>
+        </div>
+
+        <input class="team__btn" type="button" value="WORK WITH US">
+    </div>
+</div>
 
 <div class="map">
-
+    <div class="map__mark">
+        <a href="#" class="map__link">Company.com</a>
+        <p class="map__addres">xyz Street<br>London, UK 13214</p>
+    </div>
 </div>
 
-
 <footer class="footer">
-
+    <div class="footer__flex">
+        <div class="footer__links">
+            <div class="footer__link">ABOUT</div>
+            <div class="footer__link">FAQ</div>
+            <div class="footer__link">WORK WITH US</div>
+        </div>
+        <div class="footer__social">
+            <div class="footer__social-link"><img src="img/mail.png" alt="mail"></div>
+            <div class="footer__social-link"><img src="img/fb.png" alt="facebook"></div>
+            <div class="footer__social-link"><img src="img/twit.png" alt="twitter"></div>
+        </div>
+    </div>
+    <hr class="footer_hr">
+    <p class="footer__copyright">Privacy Policy     |     Terms and Conditions     |     © Company.LLC 2014</p>
 </footer>
 
 </body>

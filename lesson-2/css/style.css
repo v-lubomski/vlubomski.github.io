@@ -6,6 +6,43 @@
 @import url(footer.css);
 
 
+@font-face {
+    font-family: "Avenir Heavy";
+    src: url(../fonts/AvenirLTStd-Heavy.otf);
+}
+
+@font-face {
+    font-family: "Avenir Medium";
+    src: url(../fonts/AvenirLTStd-Medium.otf);
+}
+
+@font-face {
+    font-family: "Museo Sans 500";
+    src: url(../fonts/MuseoSans-500.otf);
+}
+
+@font-face {
+    font-family: "Museo Sans";
+    src: url(../fonts/MuseoSans-700.otf);
+}
+
+@font-face {
+    font-family: "Avenir Oblique";
+    src: url(../fonts/AvenirLTStd-LightOblique.otf);
+}
+
+@font-face {
+    font-family: "Proxima Nova Bold";
+    src: url(../fonts/ProximaNova-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Proxima Nova Semibold";
+    src: url(../fonts/ProximaNova-Semibold.ttf);
+}
+
+
+
 body{
     margin: 0;
 }
@@ -14,6 +51,10 @@ body{
 .h2{
     font-family: "Avenir Heavy", sans-serif;
     font-size: 2.5em;
+}
+
+.h2__margin-off{
+    margin: 0;
 }
 
 .h2__color__blue{
