@@ -16,12 +16,17 @@
 
 .footer__links{
     display: flex;
-    color: #d7dee4;
-    font-family: "Museo Sans", sans-serif;
 }
 
 .footer__link{
     margin: 0 40px 0 0;
+    color: #d7dee4;
+    font-family: "Museo Sans", sans-serif;
+    text-decoration: none;
+}
+
+.footer__link:hover{
+    color: white;
 }
 
 .footer__social{
@@ -30,6 +35,11 @@
 
 .footer__social-link{
     margin: 0 0 0 10px;
+    opacity: 0.7;
+}
+
+.footer__social-link:hover{
+    opacity: 1;
 }
 
 .footer_hr{
@@ -44,12 +54,25 @@
 }
 
 .footer__copyright{
-    font-family: "Museo Sans 500", sans-serif;
     color: #73767a;
     font-size: 0.8em;
-    white-space: pre;
     position: absolute;
     bottom: 10px;
     right: 15%;
     margin: 0;
+}
+
+.footer__copyright-link{
+    font-family: "Museo Sans 500", sans-serif;
+    color: #73767a;
+    text-decoration: none;
+    white-space: pre;
+}
+
+.footer__copyright-link:hover{
+    color: #989898;
+}
+
+.footer__copyright-span{
+    font-weight: bold;
 }

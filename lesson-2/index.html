@@ -4,6 +4,51 @@
     <meta charset="UTF-8">
     <title>lesson-2</title>
     <link rel="stylesheet" href="css/style.css"/>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, maximum-scale=1"/>
+
+    <script src="https://api-maps.yandex.ru/2.1/?lang=en_RU"
+            type="text/javascript"></script>
+
+    <script type="text/javascript">
+        ymaps.ready(init);
+
+        function init() {
+            var myMap;
+
+            myMap = new ymaps.Map("map", {
+                center: [42.50043256, -70.91980367],
+                zoom: 15,
+                controls: []
+            });
+
+            var myPlacemark1 = new ymaps.Placemark([42.500345, -70.927376], {}, {
+                iconLayout: 'default#image',
+                iconImageHref: 'img/pin1.png',
+                iconImageSize: [28, 36],
+                iconImageOffset: [-14, -36]
+            });
+
+            var myPlacemark2 = new ymaps.Placemark([42.503344, -70.916521], {}, {
+                iconLayout: 'default#image',
+                iconImageHref: 'img/pin2.png',
+                iconImageSize: [28, 36],
+                iconImageOffset: [-14, -36]
+            });
+
+            var myPlacemark3 = new ymaps.Placemark([42.497789, -70.924700], {}, {
+                iconLayout: 'default#image',
+                iconImageHref: 'img/pin2.png',
+                iconImageSize: [28, 36],
+                iconImageOffset: [-14, -36]
+            });
+
+            myMap.geoObjects.add(myPlacemark1);
+            myMap.geoObjects.add(myPlacemark2);
+            myMap.geoObjects.add(myPlacemark3);
+        }
+
+    </script>
+
 </head>
 <body>
 <nav class="nav">
@@ -64,28 +109,30 @@
     </div>
 </div>
 
-<div class="map">
-    <div class="map__mark">
+<div id="map">
+
+    <!-- <div class="map__mark">
         <a href="#" class="map__link">Company.com</a>
         <p class="map__addres">xyz Street<br>London, UK 13214</p>
-    </div>
+    </div> -->
 </div>
 
 <footer class="footer">
     <div class="footer__flex">
         <div class="footer__links">
-            <div class="footer__link">ABOUT</div>
-            <div class="footer__link">FAQ</div>
-            <div class="footer__link">WORK WITH US</div>
+            <a class="footer__link" href="#">ABOUT</a>
+            <a class="footer__link" href="#">FAQ</a>
+            <a class="footer__link" href="#">WORK WITH US</a>
         </div>
         <div class="footer__social">
-            <div class="footer__social-link"><img src="img/mail.png" alt="mail"></div>
-            <div class="footer__social-link"><img src="img/fb.png" alt="facebook"></div>
-            <div class="footer__social-link"><img src="img/twit.png" alt="twitter"></div>
+            <a class="footer__social-link" href="#"><img src="img/mail.png" alt="mail"></a>
+            <a class="footer__social-link" href="#"><img src="img/fb.png" alt="facebook"></a>
+            <a class="footer__social-link" href="#"><img src="img/twit.png" alt="twitter"></a>
         </div>
     </div>
     <hr class="footer_hr">
-    <p class="footer__copyright">Privacy Policy     |     Terms and Conditions     |     © Company.LLC 2014</p>
+    <p class="footer__copyright">
+        <a class="footer__copyright-link" href="#">Privacy Policy   </a><span class="footer__copyright-span">|</span><a class="footer__copyright-link" href="#">   Terms and Conditions   </a><span class="footer__copyright-span">|</span><a class="footer__copyright-link" href="#">   © Company.LLC 2014</a></p>
 </footer>
 
 </body>
