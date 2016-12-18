@@ -49,6 +49,7 @@
     border: none;
     border-radius: 30px;
     padding: 10px 35px;
+    outline: none;
 }
 
 .nav__btn:hover{

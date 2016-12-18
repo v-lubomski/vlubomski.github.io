@@ -5,23 +5,22 @@
     height: 600px;
 }
 
-/*
 .map__mark{
-    position: absolute;
-    top: 200px;
-    left: 390px;
+    text-align: left;
+    margin: 10px 0 0 10px;
 }
 
 .map__link{
     color: white;
     text-decoration: none;
-    font-size: 0.9em;
+    font-size: 1.2em;
     font-family: "Proxima Nova Bold", sans-serif;
+    margin-bottom: 2px;
 }
 
-.map__addres{
+.map__address{
     color: #888e95;
-    margin: 5px 0 0 0;
-    font-size: 0.8em;
+    font-size: 1em;
     font-family: "Proxima Nova Semibold", sans-serif;
-}*/
+    margin: 0;
+}
