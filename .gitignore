@@ -1,2 +1,8 @@
 .idea/
-/lesson-2/.idea/
+less/
+src/
+nbproject/
+node_modules/
+**/.DS_Store
+logs/
+npm-debug.log
